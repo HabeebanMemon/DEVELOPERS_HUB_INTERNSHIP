@@ -1,8 +1,40 @@
-# DEVELOPERS_HUB_INTERNSHIP
-Task6_HousePricePrediction
+# DEVELOPERS_HUB_INTERNSHIP_ASSIGNMENT1
+## 🔹 Tasks Overview
 
+This repository contains internship project submissions for Developers Hub AI/ML Internship, showcasing work on regression and classification tasks using real-world datasets.
 
-## 🔹 Task Overview
+---
+## 🔹 Task 3: Heart Disease Prediction
+
+**Objective:**  
+To build a classification model to predict whether a person is likely to have heart disease based on various medical attributes.
+
+**Dataset Used:**  
+- UCI Heart Disease dataset consisting of 14 features and 303 records.
+
+**Features:**
+- Numerical: `age`, `trestbps` (resting blood pressure), `chol` (serum cholesterol), `thalach` (max heart rate), `oldpeak` (ST depression)
+- Categorical: `sex`, `cp` (chest pain type), `fbs` (fasting blood sugar), `restecg`, `exang`, `slope`, `ca`, `thal`
+- Target: `target` (0 = No disease, 1 = Heart disease)
+
+**Steps Performed:**
+- Data Cleaning (handled missing values using KNN Imputer)
+- Exploratory Data Analysis (correlation heatmap, target distribution)
+- Feature scaling using StandardScaler
+- Model training using Logistic Regression and Decision Tree
+- Model evaluation using:
+  - Accuracy
+  - Confusion Matrix
+  - ROC-AUC Curve
+- Feature importance analysis to highlight the most impactful features
+
+**Results:**
+- Accuracy (Logistic Regression): ~...
+- Accuracy (Decision Tree): ~...
+- Key Features: `cp`, `thalach`, `oldpeak`, `ca`, `thal`
+
+---
+
 
 ### Task 6: House Price Prediction
 
